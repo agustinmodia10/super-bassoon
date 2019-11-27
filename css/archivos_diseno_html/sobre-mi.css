@@ -1,0 +1,148 @@
+ body
+{
+    background-color: gainsboro;
+}
+
+
+header
+{ 
+
+    background-image: url("../../images/fondosobremi.png") ;
+    
+   
+   
+    /* Para dejar la imagen de fondo centrada, vertical y
+
+horizontalmente */
+
+background-position: center right;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+
+}
+@media only screen and (max-width: 767px)
+ {
+    header
+    { 
+
+    background-image: url("../../images/fondosobremi.png") ;
+    
+    background-position: center right;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+
+    }
+}
+
+h1
+{
+    color: black;
+    text-decoration: none;
+    font-size: 400%;
+
+}
+.hnavbar
+{
+    margin-left: 100px;
+
+}
+.hnavbar2
+{
+    width: 200px;
+
+}
+nav
+{
+    
+    background-image: url(../../images/fnb2.jpg);
+    background-size: contain;
+}
+nav .spannavbar
+{
+
+    font-family: 'Anton', sans-serif;
+    color: black;
+    -webkit-text-stroke: 0.25px white;
+    font-size: x-large;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline  black;  
+
+
+   
+}
+
+.spannavbar:hover
+{
+    font-size: xx-large;
+}
+
+.span1
+{
+  
+    font-family: 'Anton', sans-serif;
+    color: white;
+      background-color: black;
+    text-decoration: none;
+    font-size: 75%;
+   
+}
+#span2
+{
+    padding-left: 10%;
+    font-size: 400%;
+    color: white;
+    background-color: black;
+    text-align: left;
+}
+.fondoBlanco
+{  
+  text-align: left;
+    border-right: 20px solid gainsboro;
+
+    background-color: white;
+}
+
+.fondoBlanco2
+{  
+  text-align: left;
+    border-right: 20px solid gainsboro;
+    border-top: 25px solid gainsboro;
+
+    background-color: white;
+}
+
+.formatoLi2
+{
+   float: left;
+
+   list-style: none;
+  text-align: left;
+ 
+
+}
+.formatoLi3
+{
+   float: left;
+
+   list-style: none;
+  text-align: left;
+ 
+
+}
